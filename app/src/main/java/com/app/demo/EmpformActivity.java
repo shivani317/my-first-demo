@@ -53,6 +53,8 @@ public class EmpformActivity extends Activity {
                         Integer.parseInt(cdET.getText().toString()),Integer.parseInt(conET.getText().toString()),
                         addET.getText().toString());
                 empdbObj.getEmpInfo();
+
+                Toast.makeText(EmpformActivity.this, "Something", Toast.LENGTH_LONG).show();
             }
 
 
